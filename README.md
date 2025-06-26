@@ -19,30 +19,42 @@ This project is an advanced keylogger developed in Python for cybersecurity rese
 
 ## A. Data Collection
 ✔ Keystroke Logging – Records all keyboard inputs with active window & process context.
+
 ✔ Window Activity Tracking – Logs application switches and foreground processes.
+
 ✔ Screenshot Capture – Takes periodic screenshots (configurable interval).
+
 ✔ Audio Recording – Captures microphone input in short clips.
+
 ✔ System & Network Monitoring – Collects running processes, network connections, and system details.
 
 ## B. Data Protection & Exfiltration
+
 ✔ AES Encryption (Fernet) – Secures logs before storage/transmission.
-✔ Multiple Exfiltration Methods –
+
+✔ Multiple Exfiltration Methods:
 
 Email (SMTP) – Sends encrypted logs via email.
 
 HTTP POST – Transmits data to a C2 server.
 
 Local Storage – Encrypted logs stored in JSON format.
+
 ✔ Log Rotation – Prevents oversized logs by compressing & archiving old data.
 
 ## C. Anti-Analysis & Stealth
+
 ✔ Debugger Detection – Checks if running under a debugger (e.g., x64dbg, OllyDbg).
+
 ✔ Sandbox/Virtual Machine Detection – Exits if running in a VM (VirtualBox, VMware, QEMU).
+
 ✔ Randomized Timing – Screenshots & audio captures occur at irregular intervals.
+
 ✔ Function Obfuscation – Hides core functions to evade static analysis.
 
 
 ## Ethical & Legal Considerations
+
 ⚠ This tool is for educational and authorized security testing only.
 
 - Unauthorized use is illegal and violates privacy laws (e.g., CFAA, GDPR).
@@ -58,6 +70,7 @@ Local Storage – Encrypted logs stored in JSON format.
 * Cybersecurity coursework (understanding malware techniques).
 
 ## Future Enhancements
+
 🔹 Persistence Mechanisms – Registry modifications, scheduled tasks.
 
 🔹 Remote Command Execution – Allow dynamic control via C2.
@@ -67,4 +80,5 @@ Local Storage – Encrypted logs stored in JSON format.
 🔹 Browser Data Extraction – Log saved credentials & browsing history.
 
 ## Conclusion
+
 This project serves as a realistic yet ethical demonstration of how keyloggers operate, helping cybersecurity professionals improve detection, analysis, and prevention strategies. By studying offensive techniques, defenders can better secure systems against similar threats.
