@@ -59,8 +59,11 @@ Local Storage – Encrypted logs stored in JSON format.
 
 ## Future Enhancements
 🔹 Persistence Mechanisms – Registry modifications, scheduled tasks.
+
 🔹 Remote Command Execution – Allow dynamic control via C2.
+
 🔹 Clipboard Monitoring – Capture copied passwords/text.
+
 🔹 Browser Data Extraction – Log saved credentials & browsing history.
 
 ## Conclusion
